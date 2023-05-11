@@ -52,7 +52,9 @@ public class productController {
 	}
 	
 	@GetMapping("/product")
-	public List<product> getProductList()
+	public List<product> getProductList(
+		
+	)
 
 	{
 		List<product> productlist = service.getProduct();
