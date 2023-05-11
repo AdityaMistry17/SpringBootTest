@@ -53,7 +53,8 @@ public class productController {
 	
 	@GetMapping("/product")
 	public List<product> getProductList(
-		
+		@RequestParam(value="pageNumber",defaultValue="0", required = false) Integer pageNumber,
+		@RequestParam(value="pageSize",defaultValue="5", required = false) Integer pageSize
 	)
 
 	{
