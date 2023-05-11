@@ -1,0 +1,11 @@
+com\example\demo\controller\productController.class
+com\example\demo\model\category.class
+com\example\demo\service\productImpl.class
+com\example\demo\service\categoryImpl.class
+com\example\demo\SpringBootTestApplication.class
+com\example\demo\repository\productRepository.class
+com\example\demo\controller\categoryController.class
+com\example\demo\repository\categoryRepository.class
+com\example\demo\model\product.class
+com\example\demo\service\categoryService.class
+com\example\demo\service\productService.class
